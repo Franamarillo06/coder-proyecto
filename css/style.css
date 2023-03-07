@@ -80,6 +80,15 @@ button:hover{
     padding-right: 10%;
 }
 
+.container-grid{
+    display: grid;
+    grid-template: 
+    "header" auto
+    "hero" auto
+    "calificaciones" auto
+    "carta" auto
+    "footer" auto;
+}
 
 #calificaciones .container{
     background-color: rgba(0, 0, 0, 0.603);
